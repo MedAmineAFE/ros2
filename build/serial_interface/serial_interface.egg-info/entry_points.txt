@@ -1,0 +1,4 @@
+[console_scripts]
+led_control_node = serial_interface.led_control_node:main
+serial_node = serial_interface.serial_node:main
+

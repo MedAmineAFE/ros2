@@ -1,0 +1,34 @@
+[4.252s] Invoking command in '/home/rpi/ros2_ws/src/serial_interface': PYTHONPATH=/home/rpi/ros2_ws/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_interface build --build-base /home/rpi/ros2_ws/build/serial_interface/build install --record /home/rpi/ros2_ws/build/serial_interface/install.log --single-version-externally-managed install_data
+[5.439s] running egg_info
+[5.442s] creating ../../build/serial_interface/serial_interface.egg-info
+[5.445s] writing ../../build/serial_interface/serial_interface.egg-info/PKG-INFO
+[5.446s] writing dependency_links to ../../build/serial_interface/serial_interface.egg-info/dependency_links.txt
+[5.448s] writing entry points to ../../build/serial_interface/serial_interface.egg-info/entry_points.txt
+[5.449s] writing requirements to ../../build/serial_interface/serial_interface.egg-info/requires.txt
+[5.450s] writing top-level names to ../../build/serial_interface/serial_interface.egg-info/top_level.txt
+[5.450s] writing manifest file '../../build/serial_interface/serial_interface.egg-info/SOURCES.txt'
+[5.456s] reading manifest file '../../build/serial_interface/serial_interface.egg-info/SOURCES.txt'
+[5.461s] writing manifest file '../../build/serial_interface/serial_interface.egg-info/SOURCES.txt'
+[5.462s] running build
+[5.463s] running build_py
+[5.465s] creating /home/rpi/ros2_ws/build/serial_interface/build
+[5.465s] creating /home/rpi/ros2_ws/build/serial_interface/build/lib
+[5.466s] creating /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface
+[5.467s] copying serial_interface/__init__.py -> /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface
+[5.468s] running install
+[5.469s] running install_lib
+[5.472s] creating /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface
+[5.473s] copying /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface/__init__.py -> /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface
+[5.475s] byte-compiling /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface/__init__.py to __init__.cpython-310.pyc
+[5.477s] running install_data
+[5.479s] creating /home/rpi/ros2_ws/install/serial_interface/share/ament_index
+[5.479s] creating /home/rpi/ros2_ws/install/serial_interface/share/ament_index/resource_index
+[5.480s] creating /home/rpi/ros2_ws/install/serial_interface/share/ament_index/resource_index/packages
+[5.480s] copying resource/serial_interface -> /home/rpi/ros2_ws/install/serial_interface/share/ament_index/resource_index/packages
+[5.481s] copying package.xml -> /home/rpi/ros2_ws/install/serial_interface/share/serial_interface
+[5.482s] running install_egg_info
+[5.489s] Copying ../../build/serial_interface/serial_interface.egg-info to /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface-0.0.0-py3.10.egg-info
+[5.496s] running install_scripts
+[5.589s] Installing serial_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[5.591s] writing list of installed files to '/home/rpi/ros2_ws/build/serial_interface/install.log'
+[5.783s] Invoked command in '/home/rpi/ros2_ws/src/serial_interface' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_interface build --build-base /home/rpi/ros2_ws/build/serial_interface/build install --record /home/rpi/ros2_ws/build/serial_interface/install.log --single-version-externally-managed install_data

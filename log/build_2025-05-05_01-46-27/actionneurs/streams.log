@@ -1,0 +1,33 @@
+[3.030s] Invoking command in '/home/rpi/ros2_ws/src/actionneurs': PYTHONPATH=/home/rpi/ros2_ws/build/actionneurs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actionneurs build --build-base /home/rpi/ros2_ws/build/actionneurs/build install --record /home/rpi/ros2_ws/build/actionneurs/install.log --single-version-externally-managed install_data
+[4.127s] running egg_info
+[4.130s] creating ../../build/actionneurs/actionneurs.egg-info
+[4.130s] writing ../../build/actionneurs/actionneurs.egg-info/PKG-INFO
+[4.132s] writing dependency_links to ../../build/actionneurs/actionneurs.egg-info/dependency_links.txt
+[4.132s] writing entry points to ../../build/actionneurs/actionneurs.egg-info/entry_points.txt
+[4.133s] writing requirements to ../../build/actionneurs/actionneurs.egg-info/requires.txt
+[4.133s] writing top-level names to ../../build/actionneurs/actionneurs.egg-info/top_level.txt
+[4.134s] writing manifest file '../../build/actionneurs/actionneurs.egg-info/SOURCES.txt'
+[4.142s] reading manifest file '../../build/actionneurs/actionneurs.egg-info/SOURCES.txt'
+[4.145s] writing manifest file '../../build/actionneurs/actionneurs.egg-info/SOURCES.txt'
+[4.145s] running build
+[4.146s] running build_py
+[4.147s] creating /home/rpi/ros2_ws/build/actionneurs/build
+[4.147s] creating /home/rpi/ros2_ws/build/actionneurs/build/lib
+[4.148s] creating /home/rpi/ros2_ws/build/actionneurs/build/lib/actionneurs
+[4.148s] copying actionneurs/__init__.py -> /home/rpi/ros2_ws/build/actionneurs/build/lib/actionneurs
+[4.148s] running install
+[4.149s] running install_lib
+[4.153s] creating /home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs
+[4.153s] copying /home/rpi/ros2_ws/build/actionneurs/build/lib/actionneurs/__init__.py -> /home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs
+[4.156s] byte-compiling /home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs/__init__.py to __init__.cpython-310.pyc
+[4.158s] running install_data
+[4.159s] creating /home/rpi/ros2_ws/install/actionneurs/share/ament_index
+[4.159s] creating /home/rpi/ros2_ws/install/actionneurs/share/ament_index/resource_index
+[4.160s] creating /home/rpi/ros2_ws/install/actionneurs/share/ament_index/resource_index/packages
+[4.160s] copying resource/actionneurs -> /home/rpi/ros2_ws/install/actionneurs/share/ament_index/resource_index/packages
+[4.161s] copying package.xml -> /home/rpi/ros2_ws/install/actionneurs/share/actionneurs
+[4.161s] running install_egg_info
+[4.172s] Copying ../../build/actionneurs/actionneurs.egg-info to /home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs-0.0.0-py3.10.egg-info
+[4.177s] running install_scripts
+[4.259s] writing list of installed files to '/home/rpi/ros2_ws/build/actionneurs/install.log'
+[4.395s] Invoked command in '/home/rpi/ros2_ws/src/actionneurs' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/actionneurs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actionneurs build --build-base /home/rpi/ros2_ws/build/actionneurs/build install --record /home/rpi/ros2_ws/build/actionneurs/install.log --single-version-externally-managed install_data
