@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.002012] (actionneurs) JobQueued: {'identifier': 'actionneurs', 'dependencies': OrderedDict()}
+[0.002183] (serial_interface) JobQueued: {'identifier': 'serial_interface', 'dependencies': OrderedDict()}
+[0.002269] (actionneurs) JobStarted: {'identifier': 'actionneurs'}
+[0.038755] (serial_interface) JobStarted: {'identifier': 'serial_interface'}
+[0.098998] (-) TimerEvent: {}
+[0.199695] (-) TimerEvent: {}
+[0.300337] (-) TimerEvent: {}
+[0.400992] (-) TimerEvent: {}
+[0.501634] (-) TimerEvent: {}
+[0.602253] (-) TimerEvent: {}
+[0.702866] (-) TimerEvent: {}
+[0.803500] (-) TimerEvent: {}
+[0.904088] (-) TimerEvent: {}
+[1.004697] (-) TimerEvent: {}
+[1.105379] (-) TimerEvent: {}
+[1.206192] (-) TimerEvent: {}
+[1.307576] (-) TimerEvent: {}
+[1.408256] (-) TimerEvent: {}
+[1.508933] (-) TimerEvent: {}
+[1.609608] (-) TimerEvent: {}
+[1.710254] (-) TimerEvent: {}
+[1.810879] (-) TimerEvent: {}
+[1.911539] (-) TimerEvent: {}
+[2.012150] (-) TimerEvent: {}
+[2.112774] (-) TimerEvent: {}
+[2.213446] (-) TimerEvent: {}
+[2.314084] (-) TimerEvent: {}
+[2.414841] (-) TimerEvent: {}
+[2.516256] (-) TimerEvent: {}
+[2.617305] (-) TimerEvent: {}
+[2.718078] (-) TimerEvent: {}
+[2.818827] (-) TimerEvent: {}
+[2.919589] (-) TimerEvent: {}
+[3.020245] (-) TimerEvent: {}
+[3.120888] (-) TimerEvent: {}
+[3.221580] (-) TimerEvent: {}
+[3.322306] (-) TimerEvent: {}
+[3.422987] (-) TimerEvent: {}
+[3.523701] (-) TimerEvent: {}
+[3.624478] (-) TimerEvent: {}
+[3.725227] (-) TimerEvent: {}
+[3.826011] (-) TimerEvent: {}
+[3.927863] (-) TimerEvent: {}
+[4.028973] (-) TimerEvent: {}
+[4.130120] (-) TimerEvent: {}
+[4.231473] (-) TimerEvent: {}
+[4.334147] (-) TimerEvent: {}
+[4.392398] (actionneurs) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/actionneurs', 'build', '--build-base', '/home/rpi/ros2_ws/build/actionneurs/build', 'install', '--record', '/home/rpi/ros2_ws/build/actionneurs/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rpi/ros2_ws/src/actionneurs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rpi', 'SSH_CLIENT': '192.168.18.103 63821 22', 'LC_TIME': 'ar_MA.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/rpi', 'OLDPWD': '/home/rpi/ros2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_MA.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rpi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rpi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rpi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ar_MA.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_MA.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/rpi/ros2_ws/install/serial_interface:/home/rpi/ros2_ws/install/maze_solver:/home/rpi/ros2_ws/install/actionneurs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_MA.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_MA.UTF-8', 'LC_IDENTIFICATION': 'ar_MA.UTF-8', 'PWD': '/home/rpi/ros2_ws/build/actionneurs', 'SSH_CONNECTION': '192.168.18.103 63821 192.168.18.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rpi/ros2_ws/build/actionneurs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:/home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_MA.UTF-8', 'LC_PAPER': 'ar_MA.UTF-8', 'COLCON': '1'}, 'shell': False}
+[4.414990] (serial_interface) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_interface', 'build', '--build-base', '/home/rpi/ros2_ws/build/serial_interface/build', 'install', '--record', '/home/rpi/ros2_ws/build/serial_interface/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rpi/ros2_ws/src/serial_interface', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rpi', 'SSH_CLIENT': '192.168.18.103 63821 22', 'LC_TIME': 'ar_MA.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/rpi', 'OLDPWD': '/home/rpi/ros2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_MA.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rpi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rpi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rpi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ar_MA.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_MA.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/rpi/ros2_ws/install/serial_interface:/home/rpi/ros2_ws/install/maze_solver:/home/rpi/ros2_ws/install/actionneurs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_MA.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_MA.UTF-8', 'LC_IDENTIFICATION': 'ar_MA.UTF-8', 'PWD': '/home/rpi/ros2_ws/build/serial_interface', 'SSH_CONNECTION': '192.168.18.103 63821 192.168.18.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rpi/ros2_ws/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:/home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_MA.UTF-8', 'LC_PAPER': 'ar_MA.UTF-8', 'COLCON': '1'}, 'shell': False}
+[4.434267] (-) TimerEvent: {}
+[4.534958] (-) TimerEvent: {}
+[4.635695] (-) TimerEvent: {}
+[4.736431] (-) TimerEvent: {}
+[4.837084] (-) TimerEvent: {}
+[4.937740] (-) TimerEvent: {}
+[5.038370] (-) TimerEvent: {}
+[5.139032] (-) TimerEvent: {}
+[5.239684] (-) TimerEvent: {}
+[5.340343] (-) TimerEvent: {}
+[5.441057] (-) TimerEvent: {}
+[5.541708] (-) TimerEvent: {}
+[5.642550] (-) TimerEvent: {}
+[5.647042] (actionneurs) StdoutLine: {'line': b'running egg_info\n'}
+[5.649929] (actionneurs) StdoutLine: {'line': b'writing ../../build/actionneurs/actionneurs.egg-info/PKG-INFO\n'}
+[5.652087] (actionneurs) StdoutLine: {'line': b'writing dependency_links to ../../build/actionneurs/actionneurs.egg-info/dependency_links.txt\n'}
+[5.653028] (actionneurs) StdoutLine: {'line': b'writing entry points to ../../build/actionneurs/actionneurs.egg-info/entry_points.txt\n'}
+[5.654065] (actionneurs) StdoutLine: {'line': b'writing requirements to ../../build/actionneurs/actionneurs.egg-info/requires.txt\n'}
+[5.654895] (actionneurs) StdoutLine: {'line': b'writing top-level names to ../../build/actionneurs/actionneurs.egg-info/top_level.txt\n'}
+[5.665503] (serial_interface) StdoutLine: {'line': b'running egg_info\n'}
+[5.669119] (serial_interface) StdoutLine: {'line': b'writing ../../build/serial_interface/serial_interface.egg-info/PKG-INFO\n'}
+[5.669762] (actionneurs) StdoutLine: {'line': b"reading manifest file '../../build/actionneurs/actionneurs.egg-info/SOURCES.txt'\n"}
+[5.671231] (serial_interface) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_interface/serial_interface.egg-info/dependency_links.txt\n'}
+[5.672511] (serial_interface) StdoutLine: {'line': b'writing entry points to ../../build/serial_interface/serial_interface.egg-info/entry_points.txt\n'}
+[5.673624] (serial_interface) StdoutLine: {'line': b'writing requirements to ../../build/serial_interface/serial_interface.egg-info/requires.txt\n'}
+[5.674415] (serial_interface) StdoutLine: {'line': b'writing top-level names to ../../build/serial_interface/serial_interface.egg-info/top_level.txt\n'}
+[5.675762] (actionneurs) StdoutLine: {'line': b"writing manifest file '../../build/actionneurs/actionneurs.egg-info/SOURCES.txt'\n"}
+[5.676729] (actionneurs) StdoutLine: {'line': b'running build\n'}
+[5.677673] (actionneurs) StdoutLine: {'line': b'running build_py\n'}
+[5.687547] (actionneurs) StdoutLine: {'line': b'running install\n'}
+[5.689221] (actionneurs) StdoutLine: {'line': b'running install_lib\n'}
+[5.691057] (serial_interface) StdoutLine: {'line': b"reading manifest file '../../build/serial_interface/serial_interface.egg-info/SOURCES.txt'\n"}
+[5.696310] (serial_interface) StdoutLine: {'line': b"writing manifest file '../../build/serial_interface/serial_interface.egg-info/SOURCES.txt'\n"}
+[5.697026] (actionneurs) StdoutLine: {'line': b'running install_data\n'}
+[5.697753] (serial_interface) StdoutLine: {'line': b'running build\n'}
+[5.698367] (serial_interface) StdoutLine: {'line': b'running build_py\n'}
+[5.698788] (actionneurs) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.701708] (serial_interface) StdoutLine: {'line': b'copying serial_interface/ultrasonic_node.py -> /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface\n'}
+[5.703872] (serial_interface) StdoutLine: {'line': b'copying serial_interface/decision_maker.py -> /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface\n'}
+[5.705206] (serial_interface) StdoutLine: {'line': b'copying serial_interface/motor_driver.py -> /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface\n'}
+[5.706720] (actionneurs) StdoutLine: {'line': b"removing '/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.707414] (serial_interface) StdoutLine: {'line': b'running install\n'}
+[5.708507] (serial_interface) StdoutLine: {'line': b'running install_lib\n'}
+[5.709144] (actionneurs) StdoutLine: {'line': b'Copying ../../build/actionneurs/actionneurs.egg-info to /home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs-0.0.0-py3.10.egg-info\n'}
+[5.712828] (serial_interface) StdoutLine: {'line': b'copying /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface/ultrasonic_node.py -> /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface\n'}
+[5.713738] (serial_interface) StdoutLine: {'line': b'copying /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface/decision_maker.py -> /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface\n'}
+[5.715850] (serial_interface) StdoutLine: {'line': b'copying /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface/motor_driver.py -> /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface\n'}
+[5.716395] (actionneurs) StdoutLine: {'line': b'running install_scripts\n'}
+[5.719510] (serial_interface) StdoutLine: {'line': b'byte-compiling /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface/ultrasonic_node.py to ultrasonic_node.cpython-310.pyc\n'}
+[5.722310] (serial_interface) StdoutLine: {'line': b'byte-compiling /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface/decision_maker.py to decision_maker.cpython-310.pyc\n'}
+[5.724140] (serial_interface) StdoutLine: {'line': b'byte-compiling /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface/motor_driver.py to motor_driver.cpython-310.pyc\n'}
+[5.726603] (serial_interface) StdoutLine: {'line': b'running install_data\n'}
+[5.727772] (serial_interface) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.735711] (serial_interface) StdoutLine: {'line': b"removing '/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.737647] (serial_interface) StdoutLine: {'line': b'Copying ../../build/serial_interface/serial_interface.egg-info to /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface-0.0.0-py3.10.egg-info\n'}
+[5.742723] (-) TimerEvent: {}
+[5.745306] (serial_interface) StdoutLine: {'line': b'running install_scripts\n'}
+[5.803634] (actionneurs) StdoutLine: {'line': b"writing list of installed files to '/home/rpi/ros2_ws/build/actionneurs/install.log'\n"}
+[5.843017] (-) TimerEvent: {}
+[5.848655] (serial_interface) StdoutLine: {'line': b'Installing led_control_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface\n'}
+[5.850533] (serial_interface) StdoutLine: {'line': b'Installing motor_driver script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface\n'}
+[5.852437] (serial_interface) StdoutLine: {'line': b'Installing serial_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface\n'}
+[5.854321] (serial_interface) StdoutLine: {'line': b'Installing ultrasonic_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface\n'}
+[5.856196] (serial_interface) StdoutLine: {'line': b'Installing webcam_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface\n'}
+[5.859670] (serial_interface) StdoutLine: {'line': b"writing list of installed files to '/home/rpi/ros2_ws/build/serial_interface/install.log'\n"}
+[5.943438] (-) TimerEvent: {}
+[5.974195] (actionneurs) CommandEnded: {'returncode': 0}
+[6.040355] (actionneurs) JobEnded: {'identifier': 'actionneurs', 'rc': 0}
+[6.045019] (-) TimerEvent: {}
+[6.045512] (serial_interface) CommandEnded: {'returncode': 0}
+[6.076101] (serial_interface) JobEnded: {'identifier': 'serial_interface', 'rc': 0}
+[6.078822] (-) EventReactorShutdown: {}

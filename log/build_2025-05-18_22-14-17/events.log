@@ -1,0 +1,37 @@
+[0.000000] (-) TimerEvent: {}
+[0.001214] (actionneurs) JobQueued: {'identifier': 'actionneurs', 'dependencies': OrderedDict()}
+[0.001450] (maze_solver) JobQueued: {'identifier': 'maze_solver', 'dependencies': OrderedDict()}
+[0.001743] (serial_interface) JobQueued: {'identifier': 'serial_interface', 'dependencies': OrderedDict()}
+[0.001909] (actionneurs) JobStarted: {'identifier': 'actionneurs'}
+[0.058542] (maze_solver) JobStarted: {'identifier': 'maze_solver'}
+[0.086925] (serial_interface) JobStarted: {'identifier': 'serial_interface'}
+[0.098165] (-) TimerEvent: {}
+[0.198853] (-) TimerEvent: {}
+[0.299507] (-) TimerEvent: {}
+[0.400309] (-) TimerEvent: {}
+[0.500953] (-) TimerEvent: {}
+[0.601602] (-) TimerEvent: {}
+[0.702237] (-) TimerEvent: {}
+[0.802871] (-) TimerEvent: {}
+[0.903505] (-) TimerEvent: {}
+[1.004152] (-) TimerEvent: {}
+[1.104817] (-) TimerEvent: {}
+[1.205483] (-) TimerEvent: {}
+[1.306234] (-) TimerEvent: {}
+[1.407124] (-) TimerEvent: {}
+[1.507869] (-) TimerEvent: {}
+[1.608545] (-) TimerEvent: {}
+[1.709287] (-) TimerEvent: {}
+[1.809900] (-) TimerEvent: {}
+[1.910545] (-) TimerEvent: {}
+[2.011148] (-) TimerEvent: {}
+[2.111740] (-) TimerEvent: {}
+[2.212382] (-) TimerEvent: {}
+[2.313032] (-) TimerEvent: {}
+[2.413700] (-) TimerEvent: {}
+[2.514522] (-) TimerEvent: {}
+[2.575448] (maze_solver) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[2.582005] (maze_solver) JobEnded: {'identifier': 'maze_solver', 'rc': 1}
+[2.584681] (actionneurs) JobEnded: {'identifier': 'actionneurs', 'rc': 'SIGINT'}
+[2.586328] (serial_interface) JobEnded: {'identifier': 'serial_interface', 'rc': 'SIGINT'}
+[2.592110] (-) EventReactorShutdown: {}

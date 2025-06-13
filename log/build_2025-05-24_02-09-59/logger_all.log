@@ -1,0 +1,270 @@
+[0.503s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.503s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff87a7a1d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff87c1b520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff87c1b520>>)
+[1.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.433s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rpi/ros2_ws'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extensions ['ignore', 'ignore_ament_install']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extension 'ignore'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extension 'ignore_ament_install'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extensions ['colcon_pkg']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extension 'colcon_pkg'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extensions ['colcon_meta']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extension 'colcon_meta'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extensions ['ros']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extension 'ros'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extensions ['cmake', 'python']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extension 'cmake'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extension 'python'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extensions ['python_setup_py']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(sketches) by extension 'python_setup_py'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extensions ['ignore', 'ignore_ament_install']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extension 'ignore'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extension 'ignore_ament_install'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extensions ['colcon_pkg']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extension 'colcon_pkg'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extensions ['colcon_meta']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extension 'colcon_meta'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extensions ['ros']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extension 'ros'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extensions ['cmake', 'python']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extension 'cmake'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extension 'python'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extensions ['python_setup_py']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(sketches/driver_ultrason) by extension 'python_setup_py'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/actionneurs) by extensions ['ignore', 'ignore_ament_install']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/actionneurs) by extension 'ignore'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/actionneurs) by extension 'ignore_ament_install'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/actionneurs) by extensions ['colcon_pkg']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/actionneurs) by extension 'colcon_pkg'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/actionneurs) by extensions ['colcon_meta']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/actionneurs) by extension 'colcon_meta'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/actionneurs) by extensions ['ros']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/actionneurs) by extension 'ros'
+[1.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/actionneurs' with type 'ros.ament_python' and name 'actionneurs'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extensions ['ignore', 'ignore_ament_install']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extension 'ignore'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extension 'ignore_ament_install'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extensions ['colcon_pkg']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extension 'colcon_pkg'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extensions ['colcon_meta']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extension 'colcon_meta'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extensions ['ros']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extension 'ros'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extensions ['cmake', 'python']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extension 'cmake'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extension 'python'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extensions ['python_setup_py']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/bin) by extension 'python_setup_py'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package_nav2_rviz) by extensions ['ignore', 'ignore_ament_install']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package_nav2_rviz) by extension 'ignore'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package_nav2_rviz) by extension 'ignore_ament_install'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package_nav2_rviz) by extensions ['colcon_pkg']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package_nav2_rviz) by extension 'colcon_pkg'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package_nav2_rviz) by extensions ['colcon_meta']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package_nav2_rviz) by extension 'colcon_meta'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package_nav2_rviz) by extensions ['ros']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_package_nav2_rviz) by extension 'ros'
+[1.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mon_package_nav2_rviz' with type 'ros.ament_python' and name 'mon_package_nav2_rviz'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_interface) by extension 'ignore'
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_interface) by extension 'ignore_ament_install'
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_interface) by extensions ['colcon_pkg']
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_interface) by extension 'colcon_pkg'
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_interface) by extensions ['colcon_meta']
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_interface) by extension 'colcon_meta'
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_interface) by extensions ['ros']
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_interface) by extension 'ros'
+[1.515s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_interface' with type 'ros.ament_python' and name 'serial_interface'
+[1.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.646s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/rpi/ros2_ws/install
+[1.649s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rpi/my_ws/install
+[1.660s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/humble
+[1.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'actionneurs' build argument 'cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'actionneurs' build argument 'cmake_target' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'actionneurs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'actionneurs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'actionneurs' build argument 'cmake_clean_first' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'actionneurs' build argument 'cmake_force_configure' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'actionneurs' build argument 'ament_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'actionneurs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'actionneurs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.877s] DEBUG:colcon.colcon_core.verb:Building package 'actionneurs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rpi/ros2_ws/build/actionneurs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rpi/ros2_ws/install/actionneurs', 'merge_install': False, 'path': '/home/rpi/ros2_ws/src/actionneurs', 'symlink_install': False, 'test_result_base': None}
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'mon_package_nav2_rviz' build argument 'cmake_args' from command line to 'None'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'mon_package_nav2_rviz' build argument 'cmake_target' from command line to 'None'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'mon_package_nav2_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'mon_package_nav2_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'mon_package_nav2_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'mon_package_nav2_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'mon_package_nav2_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'mon_package_nav2_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'mon_package_nav2_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.880s] DEBUG:colcon.colcon_core.verb:Building package 'mon_package_nav2_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rpi/ros2_ws/build/mon_package_nav2_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rpi/ros2_ws/install/mon_package_nav2_rviz', 'merge_install': False, 'path': '/home/rpi/ros2_ws/src/mon_package_nav2_rviz', 'symlink_install': False, 'test_result_base': None}
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_args' from command line to 'None'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_target' from command line to 'None'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.882s] DEBUG:colcon.colcon_core.verb:Building package 'serial_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rpi/ros2_ws/build/serial_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rpi/ros2_ws/install/serial_interface', 'merge_install': False, 'path': '/home/rpi/ros2_ws/src/serial_interface', 'symlink_install': False, 'test_result_base': None}
+[1.883s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.886s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.887s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rpi/ros2_ws/src/actionneurs' with build type 'ament_python'
+[1.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('actionneurs', 'ament_prefix_path')
+[1.896s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/hook/ament_prefix_path.ps1'
+[1.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/hook/ament_prefix_path.dsv'
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/hook/ament_prefix_path.sh'
+[1.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.907s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.930s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rpi/ros2_ws/src/mon_package_nav2_rviz' with build type 'ament_python'
+[1.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('mon_package_nav2_rviz', 'ament_prefix_path')
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/hook/ament_prefix_path.ps1'
+[1.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/hook/ament_prefix_path.dsv'
+[1.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/hook/ament_prefix_path.sh'
+[1.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.962s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rpi/ros2_ws/src/serial_interface' with build type 'ament_python'
+[1.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_interface', 'ament_prefix_path')
+[1.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/hook/ament_prefix_path.ps1'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/hook/ament_prefix_path.dsv'
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/hook/ament_prefix_path.sh'
+[1.972s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.972s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.360s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rpi/ros2_ws/src/actionneurs'
+[3.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.727s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rpi/ros2_ws/src/mon_package_nav2_rviz'
+[4.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.164s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rpi/ros2_ws/src/serial_interface'
+[6.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rpi/ros2_ws/src/actionneurs': PYTHONPATH=/home/rpi/ros2_ws/build/actionneurs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actionneurs build --build-base /home/rpi/ros2_ws/build/actionneurs/build install --record /home/rpi/ros2_ws/build/actionneurs/install.log --single-version-externally-managed install_data
+[8.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rpi/ros2_ws/src/serial_interface': PYTHONPATH=/home/rpi/ros2_ws/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_interface build --build-base /home/rpi/ros2_ws/build/serial_interface/build install --record /home/rpi/ros2_ws/build/serial_interface/install.log --single-version-externally-managed install_data
+[8.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rpi/ros2_ws/src/mon_package_nav2_rviz': PYTHONPATH=/home/rpi/ros2_ws/build/mon_package_nav2_rviz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/mon_package_nav2_rviz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mon_package_nav2_rviz build --build-base /home/rpi/ros2_ws/build/mon_package_nav2_rviz/build install --record /home/rpi/ros2_ws/build/mon_package_nav2_rviz/install.log --single-version-externally-managed install_data
+[10.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rpi/ros2_ws/src/actionneurs' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/actionneurs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actionneurs build --build-base /home/rpi/ros2_ws/build/actionneurs/build install --record /home/rpi/ros2_ws/build/actionneurs/install.log --single-version-externally-managed install_data
+[10.850s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/actionneurs' for CMake module files
+[10.853s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/actionneurs' for CMake config files
+[10.861s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/actionneurs/lib'
+[10.863s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/actionneurs/bin'
+[10.863s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/actionneurs/lib/pkgconfig/actionneurs.pc'
+[10.866s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages'
+[10.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('actionneurs', 'pythonpath')
+[10.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/hook/pythonpath.ps1'
+[10.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/hook/pythonpath.dsv'
+[10.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/hook/pythonpath.sh'
+[10.887s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/actionneurs/bin'
+[10.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(actionneurs)
+[10.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/package.ps1'
+[10.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/package.dsv'
+[10.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/package.sh'
+[10.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/package.bash'
+[10.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/actionneurs/share/actionneurs/package.zsh'
+[10.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rpi/ros2_ws/install/actionneurs/share/colcon-core/packages/actionneurs)
+[10.919s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/serial_interface' for CMake module files
+[10.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rpi/ros2_ws/src/serial_interface' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_interface build --build-base /home/rpi/ros2_ws/build/serial_interface/build install --record /home/rpi/ros2_ws/build/serial_interface/install.log --single-version-externally-managed install_data
+[10.927s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/serial_interface' for CMake config files
+[10.934s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/serial_interface/lib'
+[10.935s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/serial_interface/bin'
+[10.935s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/serial_interface/lib/pkgconfig/serial_interface.pc'
+[10.936s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages'
+[10.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_interface', 'pythonpath')
+[10.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/hook/pythonpath.ps1'
+[10.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/hook/pythonpath.dsv'
+[10.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/hook/pythonpath.sh'
+[10.947s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/serial_interface/bin'
+[10.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_interface)
+[10.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/package.ps1'
+[10.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/package.dsv'
+[10.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/package.sh'
+[10.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/package.bash'
+[10.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/serial_interface/share/serial_interface/package.zsh'
+[10.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rpi/ros2_ws/install/serial_interface/share/colcon-core/packages/serial_interface)
+[11.165s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/mon_package_nav2_rviz' for CMake module files
+[11.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rpi/ros2_ws/src/mon_package_nav2_rviz' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/mon_package_nav2_rviz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/mon_package_nav2_rviz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mon_package_nav2_rviz build --build-base /home/rpi/ros2_ws/build/mon_package_nav2_rviz/build install --record /home/rpi/ros2_ws/build/mon_package_nav2_rviz/install.log --single-version-externally-managed install_data
+[11.169s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/mon_package_nav2_rviz' for CMake config files
+[11.173s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/lib'
+[11.174s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/bin'
+[11.174s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/lib/pkgconfig/mon_package_nav2_rviz.pc'
+[11.175s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/lib/python3.10/site-packages'
+[11.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('mon_package_nav2_rviz', 'pythonpath')
+[11.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/hook/pythonpath.ps1'
+[11.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/hook/pythonpath.dsv'
+[11.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/hook/pythonpath.sh'
+[11.185s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/bin'
+[11.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mon_package_nav2_rviz)
+[11.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/package.ps1'
+[11.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/package.dsv'
+[11.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/package.sh'
+[11.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/package.bash'
+[11.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/mon_package_nav2_rviz/package.zsh'
+[11.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rpi/ros2_ws/install/mon_package_nav2_rviz/share/colcon-core/packages/mon_package_nav2_rviz)
+[11.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.201s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.223s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.259s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rpi/ros2_ws/install/local_setup.ps1'
+[11.264s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rpi/ros2_ws/install/_local_setup_util_ps1.py'
+[11.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rpi/ros2_ws/install/setup.ps1'
+[11.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rpi/ros2_ws/install/local_setup.sh'
+[11.279s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rpi/ros2_ws/install/_local_setup_util_sh.py'
+[11.282s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rpi/ros2_ws/install/setup.sh'
+[11.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rpi/ros2_ws/install/local_setup.bash'
+[11.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rpi/ros2_ws/install/setup.bash'
+[11.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rpi/ros2_ws/install/local_setup.zsh'
+[11.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rpi/ros2_ws/install/setup.zsh'

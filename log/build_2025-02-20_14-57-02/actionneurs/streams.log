@@ -1,0 +1,23 @@
+[4.344s] Invoking command in '/home/rpi/ros2_ws/src/actionneurs': PYTHONPATH=/home/rpi/ros2_ws/build/actionneurs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actionneurs build --build-base /home/rpi/ros2_ws/build/actionneurs/build install --record /home/rpi/ros2_ws/build/actionneurs/install.log --single-version-externally-managed install_data
+[5.578s] running egg_info
+[5.581s] writing ../../build/actionneurs/actionneurs.egg-info/PKG-INFO
+[5.582s] writing dependency_links to ../../build/actionneurs/actionneurs.egg-info/dependency_links.txt
+[5.583s] writing entry points to ../../build/actionneurs/actionneurs.egg-info/entry_points.txt
+[5.584s] writing requirements to ../../build/actionneurs/actionneurs.egg-info/requires.txt
+[5.584s] writing top-level names to ../../build/actionneurs/actionneurs.egg-info/top_level.txt
+[5.595s] reading manifest file '../../build/actionneurs/actionneurs.egg-info/SOURCES.txt'
+[5.599s] writing manifest file '../../build/actionneurs/actionneurs.egg-info/SOURCES.txt'
+[5.600s] running build
+[5.600s] running build_py
+[5.601s] copying actionneurs/L298N_node.py -> /home/rpi/ros2_ws/build/actionneurs/build/lib/actionneurs
+[5.602s] running install
+[5.608s] running install_lib
+[5.612s] copying /home/rpi/ros2_ws/build/actionneurs/build/lib/actionneurs/L298N_node.py -> /home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs
+[5.615s] byte-compiling /home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs/L298N_node.py to L298N_node.cpython-310.pyc
+[5.617s] running install_data
+[5.618s] running install_egg_info
+[5.626s] removing '/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs-0.0.0-py3.10.egg-info' (and everything under it)
+[5.627s] Copying ../../build/actionneurs/actionneurs.egg-info to /home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs-0.0.0-py3.10.egg-info
+[5.634s] running install_scripts
+[5.724s] writing list of installed files to '/home/rpi/ros2_ws/build/actionneurs/install.log'
+[5.954s] Invoked command in '/home/rpi/ros2_ws/src/actionneurs' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/actionneurs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actionneurs build --build-base /home/rpi/ros2_ws/build/actionneurs/build install --record /home/rpi/ros2_ws/build/actionneurs/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[6.113s] Invoking command in '/home/rpi/ros2_ws/src/maze_solver': PYTHONPATH=/home/rpi/ros2_ws/build/maze_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_solver build --build-base /home/rpi/ros2_ws/build/maze_solver/build install --record /home/rpi/ros2_ws/build/maze_solver/install.log --single-version-externally-managed install_data
+[7.802s] running egg_info
+[7.805s] writing ../../build/maze_solver/maze_solver.egg-info/PKG-INFO
+[7.807s] writing dependency_links to ../../build/maze_solver/maze_solver.egg-info/dependency_links.txt
+[7.808s] writing entry points to ../../build/maze_solver/maze_solver.egg-info/entry_points.txt
+[7.809s] writing requirements to ../../build/maze_solver/maze_solver.egg-info/requires.txt
+[7.809s] writing top-level names to ../../build/maze_solver/maze_solver.egg-info/top_level.txt
+[7.824s] reading manifest file '../../build/maze_solver/maze_solver.egg-info/SOURCES.txt'
+[7.829s] writing manifest file '../../build/maze_solver/maze_solver.egg-info/SOURCES.txt'
+[7.830s] running build
+[7.830s] running build_py
+[7.832s] running install
+[7.833s] running install_lib
+[7.839s] running install_data
+[7.840s] running install_egg_info
+[7.849s] removing '/home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver-0.0.1-py3.10.egg-info' (and everything under it)
+[7.851s] Copying ../../build/maze_solver/maze_solver.egg-info to /home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver-0.0.1-py3.10.egg-info
+[7.858s] running install_scripts
+[7.956s] Installing basic_solver script to /home/rpi/ros2_ws/install/maze_solver/lib/maze_solver
+[7.958s] writing list of installed files to '/home/rpi/ros2_ws/build/maze_solver/install.log'
+[8.165s] Invoked command in '/home/rpi/ros2_ws/src/maze_solver' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/maze_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_solver build --build-base /home/rpi/ros2_ws/build/maze_solver/build install --record /home/rpi/ros2_ws/build/maze_solver/install.log --single-version-externally-managed install_data

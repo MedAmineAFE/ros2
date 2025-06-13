@@ -1,0 +1,31 @@
+[12.668s] Invoking command in '/home/rpi/ros2_ws/src/serial_interface': PYTHONPATH=/home/rpi/ros2_ws/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_interface build --build-base /home/rpi/ros2_ws/build/serial_interface/build install --record /home/rpi/ros2_ws/build/serial_interface/install.log --single-version-externally-managed install_data
+[15.546s] running egg_info
+[15.551s] writing ../../build/serial_interface/serial_interface.egg-info/PKG-INFO
+[15.554s] writing dependency_links to ../../build/serial_interface/serial_interface.egg-info/dependency_links.txt
+[15.556s] writing entry points to ../../build/serial_interface/serial_interface.egg-info/entry_points.txt
+[15.557s] writing requirements to ../../build/serial_interface/serial_interface.egg-info/requires.txt
+[15.558s] writing top-level names to ../../build/serial_interface/serial_interface.egg-info/top_level.txt
+[15.572s] reading manifest file '../../build/serial_interface/serial_interface.egg-info/SOURCES.txt'
+[15.578s] writing manifest file '../../build/serial_interface/serial_interface.egg-info/SOURCES.txt'
+[15.579s] running build
+[15.582s] running build_py
+[15.589s] copying serial_interface/serial_interface_node.py -> /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface
+[15.592s] running install
+[15.594s] running install_lib
+[15.600s] copying /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface/serial_interface_node.py -> /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface
+[15.606s] byte-compiling /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface/serial_interface_node.py to serial_interface_node.cpython-310.pyc
+[15.610s] running install_data
+[15.612s] running install_egg_info
+[15.624s] removing '/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface-0.0.0-py3.10.egg-info' (and everything under it)
+[15.627s] Copying ../../build/serial_interface/serial_interface.egg-info to /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface-0.0.0-py3.10.egg-info
+[15.638s] running install_scripts
+[15.780s] Installing led_control_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[15.781s] Installing motor_driver script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[15.782s] Installing motor_driver_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[15.783s] Installing serial_interface_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[15.784s] Installing serial_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[15.786s] Installing ultrasonic_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[15.787s] Installing ultrasonic_sensor_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[15.788s] Installing webcam_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[15.791s] writing list of installed files to '/home/rpi/ros2_ws/build/serial_interface/install.log'
+[16.016s] Invoked command in '/home/rpi/ros2_ws/src/serial_interface' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_interface build --build-base /home/rpi/ros2_ws/build/serial_interface/build install --record /home/rpi/ros2_ws/build/serial_interface/install.log --single-version-externally-managed install_data

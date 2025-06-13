@@ -1,0 +1,20 @@
+[5.121s] Invoking command in '/home/rpi/ros2_ws/src/actionneurs': PYTHONPATH=/home/rpi/ros2_ws/build/actionneurs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actionneurs build --build-base /home/rpi/ros2_ws/build/actionneurs/build install --record /home/rpi/ros2_ws/build/actionneurs/install.log --single-version-externally-managed install_data
+[6.350s] running egg_info
+[6.353s] writing ../../build/actionneurs/actionneurs.egg-info/PKG-INFO
+[6.383s] writing dependency_links to ../../build/actionneurs/actionneurs.egg-info/dependency_links.txt
+[6.385s] writing entry points to ../../build/actionneurs/actionneurs.egg-info/entry_points.txt
+[6.387s] writing requirements to ../../build/actionneurs/actionneurs.egg-info/requires.txt
+[6.388s] writing top-level names to ../../build/actionneurs/actionneurs.egg-info/top_level.txt
+[6.398s] reading manifest file '../../build/actionneurs/actionneurs.egg-info/SOURCES.txt'
+[6.424s] writing manifest file '../../build/actionneurs/actionneurs.egg-info/SOURCES.txt'
+[6.425s] running build
+[6.426s] running build_py
+[6.467s] running install
+[6.478s] running install_lib
+[6.485s] running install_data
+[6.487s] running install_egg_info
+[6.495s] removing '/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs-0.0.0-py3.10.egg-info' (and everything under it)
+[6.497s] Copying ../../build/actionneurs/actionneurs.egg-info to /home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages/actionneurs-0.0.0-py3.10.egg-info
+[6.505s] running install_scripts
+[6.591s] writing list of installed files to '/home/rpi/ros2_ws/build/actionneurs/install.log'
+[6.771s] Invoked command in '/home/rpi/ros2_ws/src/actionneurs' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/actionneurs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/actionneurs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actionneurs build --build-base /home/rpi/ros2_ws/build/actionneurs/build install --record /home/rpi/ros2_ws/build/actionneurs/install.log --single-version-externally-managed install_data

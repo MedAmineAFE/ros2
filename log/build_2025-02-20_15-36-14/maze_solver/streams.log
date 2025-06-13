@@ -1,0 +1,37 @@
+[6.396s] Invoking command in '/home/rpi/ros2_ws/src/maze_solver': PYTHONPATH=/home/rpi/ros2_ws/build/maze_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_solver build --build-base /home/rpi/ros2_ws/build/maze_solver/build install --record /home/rpi/ros2_ws/build/maze_solver/install.log --single-version-externally-managed install_data
+[7.807s] running egg_info
+[7.810s] creating ../../build/maze_solver/maze_solver.egg-info
+[7.811s] writing ../../build/maze_solver/maze_solver.egg-info/PKG-INFO
+[7.812s] writing dependency_links to ../../build/maze_solver/maze_solver.egg-info/dependency_links.txt
+[7.813s] writing entry points to ../../build/maze_solver/maze_solver.egg-info/entry_points.txt
+[7.814s] writing requirements to ../../build/maze_solver/maze_solver.egg-info/requires.txt
+[7.815s] writing top-level names to ../../build/maze_solver/maze_solver.egg-info/top_level.txt
+[7.816s] writing manifest file '../../build/maze_solver/maze_solver.egg-info/SOURCES.txt'
+[7.825s] reading manifest file '../../build/maze_solver/maze_solver.egg-info/SOURCES.txt'
+[7.830s] writing manifest file '../../build/maze_solver/maze_solver.egg-info/SOURCES.txt'
+[7.831s] running build
+[7.832s] running build_py
+[7.833s] creating /home/rpi/ros2_ws/build/maze_solver/build
+[7.834s] creating /home/rpi/ros2_ws/build/maze_solver/build/lib
+[7.836s] creating /home/rpi/ros2_ws/build/maze_solver/build/lib/maze_solver
+[7.838s] copying maze_solver/__init__.py -> /home/rpi/ros2_ws/build/maze_solver/build/lib/maze_solver
+[7.840s] copying maze_solver/maze_solver.py -> /home/rpi/ros2_ws/build/maze_solver/build/lib/maze_solver
+[7.842s] running install
+[7.843s] running install_lib
+[7.847s] creating /home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver
+[7.849s] copying /home/rpi/ros2_ws/build/maze_solver/build/lib/maze_solver/__init__.py -> /home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver
+[7.852s] copying /home/rpi/ros2_ws/build/maze_solver/build/lib/maze_solver/maze_solver.py -> /home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver
+[7.853s] byte-compiling /home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver/__init__.py to __init__.cpython-310.pyc
+[7.856s] byte-compiling /home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver/maze_solver.py to maze_solver.cpython-310.pyc
+[7.861s] running install_data
+[7.863s] creating /home/rpi/ros2_ws/install/maze_solver/share/ament_index
+[7.863s] creating /home/rpi/ros2_ws/install/maze_solver/share/ament_index/resource_index
+[7.865s] creating /home/rpi/ros2_ws/install/maze_solver/share/ament_index/resource_index/packages
+[7.866s] copying resource/maze_solver -> /home/rpi/ros2_ws/install/maze_solver/share/ament_index/resource_index/packages
+[7.868s] copying package.xml -> /home/rpi/ros2_ws/install/maze_solver/share/maze_solver
+[7.868s] running install_egg_info
+[7.873s] Copying ../../build/maze_solver/maze_solver.egg-info to /home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver-0.0.1-py3.10.egg-info
+[7.879s] running install_scripts
+[7.978s] Installing basic_solver script to /home/rpi/ros2_ws/install/maze_solver/lib/maze_solver
+[7.981s] writing list of installed files to '/home/rpi/ros2_ws/build/maze_solver/install.log'
+[8.229s] Invoked command in '/home/rpi/ros2_ws/src/maze_solver' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/maze_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/maze_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_solver build --build-base /home/rpi/ros2_ws/build/maze_solver/build install --record /home/rpi/ros2_ws/build/maze_solver/install.log --single-version-externally-managed install_data

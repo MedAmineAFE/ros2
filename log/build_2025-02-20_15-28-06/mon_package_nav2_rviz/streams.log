@@ -1,0 +1,21 @@
+[6.802s] Invoking command in '/home/rpi/ros2_ws/src/mon_package_nav2_rviz': PYTHONPATH=/home/rpi/ros2_ws/build/mon_package_nav2_rviz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/mon_package_nav2_rviz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mon_package_nav2_rviz build --build-base /home/rpi/ros2_ws/build/mon_package_nav2_rviz/build install --record /home/rpi/ros2_ws/build/mon_package_nav2_rviz/install.log --single-version-externally-managed install_data
+[9.439s] running egg_info
+[9.448s] writing ../../build/mon_package_nav2_rviz/mon_package_nav2_rviz.egg-info/PKG-INFO
+[9.456s] writing dependency_links to ../../build/mon_package_nav2_rviz/mon_package_nav2_rviz.egg-info/dependency_links.txt
+[9.464s] writing entry points to ../../build/mon_package_nav2_rviz/mon_package_nav2_rviz.egg-info/entry_points.txt
+[9.468s] writing requirements to ../../build/mon_package_nav2_rviz/mon_package_nav2_rviz.egg-info/requires.txt
+[9.471s] writing top-level names to ../../build/mon_package_nav2_rviz/mon_package_nav2_rviz.egg-info/top_level.txt
+[9.496s] reading manifest file '../../build/mon_package_nav2_rviz/mon_package_nav2_rviz.egg-info/SOURCES.txt'
+[9.507s] writing manifest file '../../build/mon_package_nav2_rviz/mon_package_nav2_rviz.egg-info/SOURCES.txt'
+[9.512s] running build
+[9.527s] running build_py
+[9.535s] running install
+[9.559s] running install_lib
+[9.582s] running install_data
+[9.584s] running install_egg_info
+[9.626s] removing '/home/rpi/ros2_ws/install/mon_package_nav2_rviz/lib/python3.10/site-packages/mon_package_nav2_rviz-0.0.0-py3.10.egg-info' (and everything under it)
+[9.634s] Copying ../../build/mon_package_nav2_rviz/mon_package_nav2_rviz.egg-info to /home/rpi/ros2_ws/install/mon_package_nav2_rviz/lib/python3.10/site-packages/mon_package_nav2_rviz-0.0.0-py3.10.egg-info
+[9.666s] running install_scripts
+[9.807s] Installing ir_sensor_node script to /home/rpi/ros2_ws/install/mon_package_nav2_rviz/lib/mon_package_nav2_rviz
+[9.810s] writing list of installed files to '/home/rpi/ros2_ws/build/mon_package_nav2_rviz/install.log'
+[9.963s] Invoked command in '/home/rpi/ros2_ws/src/mon_package_nav2_rviz' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/mon_package_nav2_rviz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/mon_package_nav2_rviz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mon_package_nav2_rviz build --build-base /home/rpi/ros2_ws/build/mon_package_nav2_rviz/build install --record /home/rpi/ros2_ws/build/mon_package_nav2_rviz/install.log --single-version-externally-managed install_data

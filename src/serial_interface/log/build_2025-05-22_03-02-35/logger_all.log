@@ -1,0 +1,92 @@
+[0.467s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.467s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa85f5e70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa878b2e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa878b2e0>>)
+[1.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.347s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rpi/ros2_ws/src/serial_interface'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.400s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'serial_interface'
+[1.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.532s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rpi/ros2_ws/src/serial_interface/install
+[1.535s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/rpi/ros2_ws/install
+[1.538s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/rpi/my_ws/install
+[1.548s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[1.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.757s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_args' from command line to 'None'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_target' from command line to 'None'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.758s] Level 5:colcon.colcon_core.verb:set package 'serial_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.759s] DEBUG:colcon.colcon_core.verb:Building package 'serial_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rpi/ros2_ws/src/serial_interface/build/serial_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface', 'merge_install': False, 'path': '/home/rpi/ros2_ws/src/serial_interface', 'symlink_install': False, 'test_result_base': None}
+[1.759s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.763s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rpi/ros2_ws/src/serial_interface' with build type 'ament_python'
+[1.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_interface', 'ament_prefix_path')
+[1.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/hook/ament_prefix_path.ps1'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/hook/ament_prefix_path.dsv'
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/hook/ament_prefix_path.sh'
+[1.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.783s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.084s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rpi/ros2_ws/src/serial_interface'
+[3.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.085s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rpi/ros2_ws/src/serial_interface': PYTHONPATH=/home/rpi/ros2_ws/src/serial_interface/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/serial_interface build --build-base /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build install --record /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/install.log --single-version-externally-managed install_data
+[6.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rpi/ros2_ws/src/serial_interface' returned '0': PYTHONPATH=/home/rpi/ros2_ws/src/serial_interface/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/serial_interface build --build-base /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build install --record /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/install.log --single-version-externally-managed install_data
+[6.346s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface' for CMake module files
+[6.350s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface' for CMake config files
+[6.354s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib'
+[6.355s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/bin'
+[6.355s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/pkgconfig/serial_interface.pc'
+[6.356s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages'
+[6.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_interface', 'pythonpath')
+[6.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/hook/pythonpath.ps1'
+[6.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/hook/pythonpath.dsv'
+[6.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/hook/pythonpath.sh'
+[6.364s] Level 1:colcon.colcon_core.environment:checking '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/bin'
+[6.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_interface)
+[6.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/package.ps1'
+[6.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/package.dsv'
+[6.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/package.sh'
+[6.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/package.bash'
+[6.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/serial_interface/package.zsh'
+[6.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/share/colcon-core/packages/serial_interface)
+[6.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.385s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.409s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.409s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.409s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.444s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rpi/ros2_ws/src/serial_interface/install/local_setup.ps1'
+[6.449s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rpi/ros2_ws/src/serial_interface/install/_local_setup_util_ps1.py'
+[6.457s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rpi/ros2_ws/src/serial_interface/install/setup.ps1'
+[6.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rpi/ros2_ws/src/serial_interface/install/local_setup.sh'
+[6.467s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rpi/ros2_ws/src/serial_interface/install/_local_setup_util_sh.py'
+[6.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rpi/ros2_ws/src/serial_interface/install/setup.sh'
+[6.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rpi/ros2_ws/src/serial_interface/install/local_setup.bash'
+[6.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rpi/ros2_ws/src/serial_interface/install/setup.bash'
+[6.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rpi/ros2_ws/src/serial_interface/install/local_setup.zsh'
+[6.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rpi/ros2_ws/src/serial_interface/install/setup.zsh'

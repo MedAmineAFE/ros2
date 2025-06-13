@@ -1,0 +1,42 @@
+running egg_info
+writing build/serial_interface/serial_interface.egg-info/PKG-INFO
+writing dependency_links to build/serial_interface/serial_interface.egg-info/dependency_links.txt
+writing entry points to build/serial_interface/serial_interface.egg-info/entry_points.txt
+writing requirements to build/serial_interface/serial_interface.egg-info/requires.txt
+writing top-level names to build/serial_interface/serial_interface.egg-info/top_level.txt
+reading manifest file 'build/serial_interface/serial_interface.egg-info/SOURCES.txt'
+writing manifest file 'build/serial_interface/serial_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+copying serial_interface/webcam_node.py -> /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build/lib/serial_interface
+copying serial_interface/ultrasonic_sensor_node.py -> /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build/lib/serial_interface
+copying serial_interface/motion_planner_node.py -> /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build/lib/serial_interface
+copying serial_interface/serial_interface_node.py -> /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build/lib/serial_interface
+copying serial_interface/motor_driver_node.py -> /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build/lib/serial_interface
+running install
+running install_lib
+copying /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build/lib/serial_interface/webcam_node.py -> /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface
+copying /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build/lib/serial_interface/ultrasonic_sensor_node.py -> /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface
+copying /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build/lib/serial_interface/motion_planner_node.py -> /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface
+copying /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build/lib/serial_interface/serial_interface_node.py -> /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface
+copying /home/rpi/ros2_ws/src/serial_interface/build/serial_interface/build/lib/serial_interface/motor_driver_node.py -> /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface
+byte-compiling /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface/webcam_node.py to webcam_node.cpython-310.pyc
+byte-compiling /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface/ultrasonic_sensor_node.py to ultrasonic_sensor_node.cpython-310.pyc
+byte-compiling /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface/motion_planner_node.py to motion_planner_node.cpython-310.pyc
+byte-compiling /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface/serial_interface_node.py to serial_interface_node.cpython-310.pyc
+byte-compiling /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface/motor_driver_node.py to motor_driver_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/serial_interface/serial_interface.egg-info to /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/python3.10/site-packages/serial_interface-0.0.0-py3.10.egg-info
+running install_scripts
+Installing led_control_node script to /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/serial_interface
+Installing motion_planner_node script to /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/serial_interface
+Installing motor_driver script to /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/serial_interface
+Installing motor_driver_node script to /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/serial_interface
+Installing serial_interface_node script to /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/serial_interface
+Installing serial_node script to /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/serial_interface
+Installing ultrasonic_node script to /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/serial_interface
+Installing ultrasonic_sensor_node script to /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/serial_interface
+Installing webcam_node script to /home/rpi/ros2_ws/src/serial_interface/install/serial_interface/lib/serial_interface
+writing list of installed files to '/home/rpi/ros2_ws/src/serial_interface/build/serial_interface/install.log'

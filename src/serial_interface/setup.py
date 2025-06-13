@@ -9,7 +9,9 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
+
         ('share/' + package_name, ['package.xml']),
+('share/serial_interface/launch', ['launch/launch_serial.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -19,10 +21,19 @@ setup(
     license='MIT',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            'serial_node = serial_interface.serial_node:main',  
-            'led_control_node = serial_interface.led_control_node:main',  
-        ],
-    },
+    'console_scripts': [
+        'serial_node = serial_interface.serial_node:main',
+        'led_control_node = serial_interface.led_control_node:main',
+        'webcam_node = serial_interface.webcam_node:main',
+        'ultrasonic_node = serial_interface.ultrasonic_node:main',
+        'motor_driver = serial_interface.motor_driver:main',
+        'motor_driver_node = serial_interface.motor_driver_node:main',
+        'ultrasonic_sensor_node = serial_interface.ultrasonic_sensor_node:main',
+        'serial_interface_node = serial_interface.serial_interface_node:main',
+        'motion_planner_node = serial_interface.motion_planner_node:main',
+    ],
+},
+
+
 )
 

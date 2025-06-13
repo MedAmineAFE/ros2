@@ -1,0 +1,32 @@
+[6.290s] Invoking command in '/home/rpi/ros2_ws/src/serial_interface': PYTHONPATH=/home/rpi/ros2_ws/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_interface build --build-base /home/rpi/ros2_ws/build/serial_interface/build install --record /home/rpi/ros2_ws/build/serial_interface/install.log --single-version-externally-managed install_data
+[7.830s] running egg_info
+[7.834s] writing ../../build/serial_interface/serial_interface.egg-info/PKG-INFO
+[7.838s] writing dependency_links to ../../build/serial_interface/serial_interface.egg-info/dependency_links.txt
+[7.839s] writing entry points to ../../build/serial_interface/serial_interface.egg-info/entry_points.txt
+[7.840s] writing requirements to ../../build/serial_interface/serial_interface.egg-info/requires.txt
+[7.840s] writing top-level names to ../../build/serial_interface/serial_interface.egg-info/top_level.txt
+[7.851s] reading manifest file '../../build/serial_interface/serial_interface.egg-info/SOURCES.txt'
+[7.858s] writing manifest file '../../build/serial_interface/serial_interface.egg-info/SOURCES.txt'
+[7.859s] running build
+[7.861s] running build_py
+[7.868s] copying serial_interface/motion_planner_node.py -> /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface
+[7.872s] running install
+[7.875s] running install_lib
+[7.879s] copying /home/rpi/ros2_ws/build/serial_interface/build/lib/serial_interface/motion_planner_node.py -> /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface
+[7.885s] byte-compiling /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface/motion_planner_node.py to motion_planner_node.cpython-310.pyc
+[7.891s] running install_data
+[7.892s] running install_egg_info
+[7.903s] removing '/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface-0.0.0-py3.10.egg-info' (and everything under it)
+[7.905s] Copying ../../build/serial_interface/serial_interface.egg-info to /home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages/serial_interface-0.0.0-py3.10.egg-info
+[7.915s] running install_scripts
+[8.043s] Installing led_control_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[8.046s] Installing motion_planner_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[8.049s] Installing motor_driver script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[8.052s] Installing motor_driver_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[8.057s] Installing serial_interface_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[8.059s] Installing serial_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[8.063s] Installing ultrasonic_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[8.065s] Installing ultrasonic_sensor_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[8.067s] Installing webcam_node script to /home/rpi/ros2_ws/install/serial_interface/lib/serial_interface
+[8.071s] writing list of installed files to '/home/rpi/ros2_ws/build/serial_interface/install.log'
+[8.352s] Invoked command in '/home/rpi/ros2_ws/src/serial_interface' returned '0': PYTHONPATH=/home/rpi/ros2_ws/build/serial_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/ros2_ws/install/serial_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_interface build --build-base /home/rpi/ros2_ws/build/serial_interface/build install --record /home/rpi/ros2_ws/build/serial_interface/install.log --single-version-externally-managed install_data
