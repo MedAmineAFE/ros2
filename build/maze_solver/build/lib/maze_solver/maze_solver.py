@@ -42,19 +42,7 @@ class mase_BASICsolver():
         self.right_sensor_msg = min(msg.ranges)
     
     def basic_solver(self):
-        #------------------------
-        # Algorithm to search map *c=close *o=open f r l
-        # -----------------------
-        # 1. If there is no obstacle on front and left and right: turn radially to right - ooo 
-        # 2. If there is an obstacle on front, no obstacle on right, no obstacle on left : stop and turn the direction that is "wider"-- coo
-        # 3. If there is no obstacle on front and there is obstacle in right and no obstacle on left: go straight -- oco
-        # 4. If there is no obstacle on front and no obstacle in right there is obstacle in left: go straight-- ooc
-        # 5. If there is obstacle on front, no obstacle on right, obstacle on left, stop and turn right(maybe radially; slow linear high angular) -- coc 
-        # 6. If there is no obstacle on front and obstacle on right and left : go forward -- occ
-        # 7. If there is an obstacle on front and right no obstacle on left: stop and turn left(maybe radially; slow linear high angular) --cco
-        # 8. If there is obstacle on right front and left: stop and turn back -- ccc
-        #--------code----------- 
-        #1. ooo
+        
         if self.front_sensor_msg >= self.threshold and self.right_sensor_msg >= self.threshold and self.left_sensor_msg >= self.threshold:
             self.cmd_vel.linear.x = self.linear_speed/1.5
             self.cmd_vel.angular.z = self.angular_speed*2
